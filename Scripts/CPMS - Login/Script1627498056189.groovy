@@ -29,5 +29,5 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_CPMS - Login/input
 
 WebUI.click(findTestObject('Object Repository/Page_CPMS - Login/button_Sign in'))
 
-WebUI.closeBrowser()
+not_run: WebUI.closeBrowser()
 

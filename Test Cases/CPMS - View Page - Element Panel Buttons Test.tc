@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>cpms login</name>
+   <name>CPMS - View Page - Element Panel Buttons Test</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>aa952032-7066-449a-8074-7c2f55c8f53b</testCaseGuid>
+   <testCaseGuid>447bee7f-d608-41c0-a55c-9604e4f4e4fc</testCaseGuid>
 </TestCaseEntity>
