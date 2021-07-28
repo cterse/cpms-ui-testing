@@ -32,6 +32,10 @@ WebUI.callTestCase(findTestCase('CPMS - Login'), [:], FailureHandling.STOP_ON_FA
 
 WebUI.waitForPageLoad(10)
 
+WebUI.verifyElementVisible(findTestObject('Page_CPMS - View/panel_Element View'))
+
+WebUI.verifyElementNotVisible(findTestObject('Page_CPMS - View/panel_Compatibility View'))
+
 WebUI.verifyElementVisible(findTestObject('Page_CPMS - View/button_Compatibility Check'))
 
 WebUI.click(findTestObject('Object Repository/Page_CPMS - View/button_Compatibility Check'))
@@ -40,9 +44,13 @@ WebUI.verifyElementNotVisible(findTestObject('Page_CPMS - View/button_Compatibil
 
 WebUI.verifyElementVisible(findTestObject('Page_CPMS - View/button_View Mode'))
 
+WebUI.verifyElementVisible(findTestObject('Page_CPMS - View/panel_Compatibility View'))
+
 WebUI.click(findTestObject('Object Repository/Page_CPMS - View/button_View Mode'))
 
 WebUI.verifyElementNotVisible(findTestObject('Page_CPMS - View/button_View Mode'))
+
+WebUI.verifyElementNotVisible(findTestObject('Page_CPMS - View/panel_Compatibility View'))
 
 WebUI.verifyElementVisible(findTestObject('Page_CPMS - View/button_Compatibility Check'))
 
